@@ -13,10 +13,10 @@ public class boxScript2 : MonoBehaviour
     {
         rb = this.gameObject.GetComponent<Rigidbody>();
         goJump = new Vector3(0f, 1f, 0f);
-        goForward = new Vector3(0f, 1f, 1f);
-        goBackwords = new Vector3(0f, 1f, -1f);
-        goLeft = new Vector3(-1f, 1f, 0f);
-        goRight = new Vector3(1f, 1f, 0f);
+        goForward = new Vector3(0f, 0f, 1f);
+        goBackwords = new Vector3(0f, 0f, -1f);
+        goLeft = new Vector3(-1f, 0f, 0f);
+        goRight = new Vector3(1f, 0f, 0f);
     }
 
     // Update is called once per frame
